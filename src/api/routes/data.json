@@ -1,0 +1,725 @@
+ var ss = '{
+    "npmPackage": {
+        "_id": "abpai-react-chartist",
+        "_rev": "11-c9ba01b5217c7d730bf12e3734007442",
+        "name": "abpai-react-chartist",
+        "description": "React component for Chartist.js",
+        "dist-tags": {
+            "latest": "0.10.0"
+        },
+        "versions": {
+            "0.9.0": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.0",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/fraserxu/react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "0.14.0-rc1",
+                    "chartist": "0.9.4"
+                },
+                "scripts": {
+                    "postinstall": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel": "^5.1.8",
+                    "babelify": "^5.0.3",
+                    "browserify": "^8.1.0",
+                    "watchify": "^2.2.1"
+                },
+                "gitHead": "399a49b3aec957175244eac77d0de8b2b77eb5af",
+                "_id": "abpai-react-chartist@0.9.0",
+                "_shasum": "b3240f71f6f4545182a3433f49e0a54501b8950e",
+                "_from": ".",
+                "_npmVersion": "2.11.3",
+                "_nodeVersion": "0.12.7",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "b3240f71f6f4545182a3433f49e0a54501b8950e",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.0.tgz"
+                },
+                "directories": {}
+            },
+            "0.9.1": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.1",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/abpai-react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "0.14.0-rc1",
+                    "chartist": "0.9.4"
+                },
+                "scripts": {
+                    "postinstall": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel": "^5.1.8",
+                    "babelify": "^5.0.3",
+                    "browserify": "^8.1.0",
+                    "watchify": "^2.2.1"
+                },
+                "gitHead": "399a49b3aec957175244eac77d0de8b2b77eb5af",
+                "_id": "abpai-react-chartist@0.9.1",
+                "_shasum": "c37858b96537cfadd33d67d1545e56007bc4a23c",
+                "_from": ".",
+                "_npmVersion": "2.11.3",
+                "_nodeVersion": "0.12.7",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "c37858b96537cfadd33d67d1545e56007bc4a23c",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.1.tgz"
+                },
+                "directories": {}
+            },
+            "0.9.2": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.2",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/abpai-react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "0.14.0-rc1",
+                    "chartist": "0.9.4"
+                },
+                "scripts": {
+                    "prepublish": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel": "^5.1.8",
+                    "babelify": "^5.0.3",
+                    "browserify": "^8.1.0",
+                    "watchify": "^2.2.1"
+                },
+                "gitHead": "1f98b757a2a2b622cbd880a348a1b882ccce95ec",
+                "_id": "abpai-react-chartist@0.9.2",
+                "_shasum": "3f9bc5168d71fe297c937ff851b58da183787469",
+                "_from": ".",
+                "_npmVersion": "2.11.3",
+                "_nodeVersion": "0.12.7",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "3f9bc5168d71fe297c937ff851b58da183787469",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.2.tgz"
+                },
+                "directories": {}
+            },
+            "0.9.3": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.3",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/abpai-react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "0.14.0",
+                    "chartist": "0.9.4"
+                },
+                "scripts": {
+                    "prepublish": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel": "^5.1.8",
+                    "babelify": "^5.0.3",
+                    "browserify": "^8.1.0",
+                    "watchify": "^2.2.1"
+                },
+                "gitHead": "dbedfe782882b8946892d1f8703942ce7752ca32",
+                "_id": "abpai-react-chartist@0.9.3",
+                "_shasum": "5b515ab93ab7b26219c9d6af3cb12c4efa9285ae",
+                "_from": ".",
+                "_npmVersion": "2.14.4",
+                "_nodeVersion": "4.1.2",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "5b515ab93ab7b26219c9d6af3cb12c4efa9285ae",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.3.tgz"
+                },
+                "directories": {}
+            },
+            "0.9.4": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.4",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/abpai-react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "^0.14.0",
+                    "react-dom": "^0.14.0"
+                },
+                "dependencies": {
+                    "chartist": "^0.9.4"
+                },
+                "scripts": {
+                    "prepublish": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel": "^5.1.8",
+                    "babelify": "^5.0.3",
+                    "browserify": "^8.1.0",
+                    "watchify": "^2.2.1"
+                },
+                "gitHead": "417d05e12f35192f00017715ab0aa397e6da058b",
+                "_id": "abpai-react-chartist@0.9.4",
+                "_shasum": "1bdc0c7ac8268a1c884d92c05565dcb4a754e9f0",
+                "_from": ".",
+                "_npmVersion": "2.14.7",
+                "_nodeVersion": "4.2.1",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "1bdc0c7ac8268a1c884d92c05565dcb4a754e9f0",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.4.tgz"
+                },
+                "directories": {}
+            },
+            "0.9.5": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.5",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "0.14.0",
+                    "react-dom": "0.14.0"
+                },
+                "dependencies": {
+                    "chartist": "0.9.4"
+                },
+                "scripts": {
+                    "prepublish": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel": "^5.1.8",
+                    "babelify": "^5.0.3",
+                    "browserify": "^8.1.0",
+                    "watchify": "^2.2.1"
+                },
+                "gitHead": "ebcc13068ab8236bfeb30e7c900f62be8dc5cd19",
+                "_id": "abpai-react-chartist@0.9.5",
+                "_shasum": "6e59de28528d8eebf4a75d6c4004bac2abd9c6cd",
+                "_from": ".",
+                "_npmVersion": "2.14.7",
+                "_nodeVersion": "4.2.1",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "6e59de28528d8eebf4a75d6c4004bac2abd9c6cd",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.5.tgz"
+                },
+                "directories": {}
+            },
+            "0.9.6": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.6",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "0.14.x",
+                    "react-dom": "0.14.x"
+                },
+                "dependencies": {
+                    "chartist": "0.9.5"
+                },
+                "scripts": {
+                    "prepublish": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel": "^5.1.8",
+                    "babelify": "^5.0.3",
+                    "browserify": "^8.1.0",
+                    "watchify": "^2.2.1"
+                },
+                "gitHead": "8ab606eb4d659613bb41a6215fe307bfc82e6b45",
+                "_id": "abpai-react-chartist@0.9.6",
+                "_shasum": "4e6effef5c3137aa4cb27030ca1ea09d3b1d82ea",
+                "_from": ".",
+                "_npmVersion": "2.14.7",
+                "_nodeVersion": "4.2.1",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "4e6effef5c3137aa4cb27030ca1ea09d3b1d82ea",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.6.tgz"
+                },
+                "directories": {}
+            },
+            "0.9.7": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.7",
+                "description": "React component for Chartist.js",
+                "main": "index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "0.14.x",
+                    "react-dom": "0.14.x"
+                },
+                "dependencies": {
+                    "chartist": "0.9.x"
+                },
+                "gitHead": "f53a06299f9c9d87c4c86dc9282b7f27aa87884e",
+                "_id": "abpai-react-chartist@0.9.7",
+                "scripts": {},
+                "_shasum": "5b6c020b7557f8b303f04458e95f5976e5259bad",
+                "_from": ".",
+                "_npmVersion": "3.6.0",
+                "_nodeVersion": "5.7.1",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "5b6c020b7557f8b303f04458e95f5976e5259bad",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.7.tgz"
+                },
+                "_npmOperationalInternal": {
+                    "host": "packages-12-west.internal.npmjs.com",
+                    "tmp": "tmp/abpai-react-chartist-0.9.7.tgz_1458170416842_0.04559746175073087"
+                },
+                "directories": {}
+            },
+            "0.9.8": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.8",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "0.14.x",
+                    "react-dom": "0.14.x"
+                },
+                "dependencies": {
+                    "chartist": "0.9.x"
+                },
+                "scripts": {
+                    "prepublish": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel-cli": "^6.6.5",
+                    "babel-preset-es2015": "^6.6.0",
+                    "babel-preset-react": "^6.5.0",
+                    "babel-preset-stage-0": "^6.5.0",
+                    "babel-plugin-transform-runtime": "^6.6.0"
+                },
+                "gitHead": "6800df10d62f892d75988a98506a57a2edb8ff9f",
+                "_id": "abpai-react-chartist@0.9.8",
+                "_shasum": "e5d564c58530c519b3e815a5352af9d534e51556",
+                "_from": ".",
+                "_npmVersion": "3.6.0",
+                "_nodeVersion": "5.7.1",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "e5d564c58530c519b3e815a5352af9d534e51556",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.8.tgz"
+                },
+                "_npmOperationalInternal": {
+                    "host": "packages-12-west.internal.npmjs.com",
+                    "tmp": "tmp/abpai-react-chartist-0.9.8.tgz_1458171470199_0.5180919985286891"
+                },
+                "directories": {}
+            },
+            "0.9.9": {
+                "name": "abpai-react-chartist",
+                "version": "0.9.9",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "15.0.x",
+                    "react-dom": "15.0.x"
+                },
+                "dependencies": {
+                    "chartist": "0.9.7"
+                },
+                "scripts": {
+                    "prepublish": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel-cli": "6.7.5",
+                    "babel-plugin-transform-runtime": "6.7.5",
+                    "babel-preset-es2015": "6.6.0",
+                    "babel-preset-react": "6.5.0",
+                    "babel-preset-stage-0": "6.5.0"
+                },
+                "gitHead": "255fd4fe279f29c5c95ca48b5fd58f9bbd01f5f3",
+                "_id": "abpai-react-chartist@0.9.9",
+                "_shasum": "e899ef1570c24c57a58dbe5f17961dff52fcab6b",
+                "_from": ".",
+                "_npmVersion": "3.6.0",
+                "_nodeVersion": "5.7.1",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "e899ef1570c24c57a58dbe5f17961dff52fcab6b",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.9.9.tgz"
+                },
+                "_npmOperationalInternal": {
+                    "host": "packages-16-east.internal.npmjs.com",
+                    "tmp": "tmp/abpai-react-chartist-0.9.9.tgz_1460263574550_0.35993150621652603"
+                },
+                "directories": {}
+            },
+            "0.10.0": {
+                "name": "abpai-react-chartist",
+                "version": "0.10.0",
+                "description": "React component for Chartist.js",
+                "main": "dist/index.js",
+                "repository": {
+                    "type": "git",
+                    "url": "git://github.com/abpai/react-chartist.git"
+                },
+                "keywords": [
+                    "react",
+                    "react-component",
+                    "component",
+                    "chartist",
+                    "graph"
+                ],
+                "author": {
+                    "name": "Fraser Xu",
+                    "email": "xvfeng123@gmail.com",
+                    "url": "https://fraserxu.me"
+                },
+                "license": "MIT",
+                "bugs": {
+                    "url": "https://github.com/fraserxu/react-chartist/issues"
+                },
+                "homepage": "https://github.com/fraserxu/react-chartist",
+                "peerDependencies": {
+                    "react": "15.x.x",
+                    "react-dom": "15.x.x"
+                },
+                "dependencies": {
+                    "chartist": "0.9.7"
+                },
+                "scripts": {
+                    "prepublish": "mkdir -p dist && ./node_modules/.bin/babel index.js > dist/index.js"
+                },
+                "devDependencies": {
+                    "babel-cli": "6.9.0",
+                    "babel-plugin-transform-runtime": "6.9.0",
+                    "babel-preset-es2015": "6.9.0",
+                    "babel-preset-react": "6.5.0",
+                    "babel-preset-stage-0": "6.5.0"
+                },
+                "gitHead": "9302d0f0a5e2d6af99fc36f11bc867e123ad188d",
+                "_id": "abpai-react-chartist@0.10.0",
+                "_shasum": "e40de9387fe2a9f543a7bc5aea368cdd4e6f311b",
+                "_from": ".",
+                "_npmVersion": "3.8.9",
+                "_nodeVersion": "5.7.1",
+                "_npmUser": {
+                    "name": "abpai",
+                    "email": "andy@lapwinglabs.com"
+                },
+                "maintainers": [
+                    {
+                        "name": "abpai",
+                        "email": "andy@lapwinglabs.com"
+                    }
+                ],
+                "dist": {
+                    "shasum": "e40de9387fe2a9f543a7bc5aea368cdd4e6f311b",
+                    "tarball": "https://registry.npmjs.org/abpai-react-chartist/-/abpai-react-chartist-0.10.0.tgz"
+                },
+                "_npmOperationalInternal": {
+                    "host": "packages-12-west.internal.npmjs.com",
+                    "tmp": "tmp/abpai-react-chartist-0.10.0.tgz_1464064111401_0.3555863492656499"
+                },
+                "directories": {}
+            }
+        },
+        "readme": "react-chartist\n==============\n\n[![NPM version][npm-image]][npm-url]\n[![Downloads][downloads-image]][downloads-url]\n\n\nReact component for [Chartist.js](https://gionkunz.github.io/chartist-js/)\n\n### Installation\n\n```\n$ npm install react-chartist --save\n```\n\n### Usage\n\n```JavaScript\nimport React from 'react';\nimport ReactDOM from 'react-dom';\nimport ChartistGraph from '../index';\n\nclass Pie extends React.Component {\n  render() {\n\n    var data = {\n      labels: ['W1', 'W2', 'W3', 'W4', 'W5', 'W6', 'W7', 'W8', 'W9', 'W10'],\n      series: [\n        [1, 2, 4, 8, 6, -2, -1, -4, -6, -2]\n      ]\n    };\n\n    var options = {\n      high: 10,\n      low: -10,\n      axisX: {\n        labelInterpolationFnc: function(value, index) {\n          return index % 2 === 0 ? value : null;\n        }\n      }\n    };\n\n    var type = 'Bar'\n\n    return (\n      <div>\n        <ChartistGraph data={data} options={options} type={type} />\n      </div>\n    )\n  }\n}\n\nReactDOM.render(<Pie />, document.body)\n\n```\n\n### Options\n\nPlease check out [Chartist.js API documentation](http://gionkunz.github.io/chartist-js/api-documentation.html) for more details of the options.\n\n* data - chart data (required)\n* type - chart type (required)\n* style - inline css styles (optional)\n* options - chart options (optional)\n* responsive-options - chart responsive options (optional)\n\nTo add support for aspect ratio\n\n```HTML\n<ChartistGraph className={'ct-octave'} data={data} options={options} type={type} />\n```\n\n### Note\n\nThis module does not include the css files for Chartist. If you want to add it, include their CDN in your html file\n\n```HTML\n<link rel=\"stylesheet\" href=\"//cdn.jsdelivr.net/chartist.js/latest/chartist.min.css\">\n<script src=\"//cdn.jsdelivr.net/chartist.js/latest/chartist.min.js\"></script>\n```\n\nOr use `bower` or `npm` to install Chartist and include it in your build process.\n\n```\n$ npm install chartist\n```\n\nOr\n\n```\n$ bower install chartist\n```\n\n### Development\n\n```\n$ npm install\n```\n\nTo build run `npm run build`\n\n### Changelog\n\nIf you want to support react version under v0.13, use `npm install react-chartist@0.9.0`\n\n### License\n\nMIT\n\n[npm-image]: https://img.shields.io/npm/v/react-chartist.svg?style=flat-square\n[npm-url]: https://npmjs.org/package/react-chartist\n[downloads-image]: http://img.shields.io/npm/dm/react-chartist.svg?style=flat-square\n[downloads-url]: https://npmjs.org/package/react-chartist\n\n",
+
+        "author": {
+            "name": "Fraser Xu",
+            "email": "xvfeng123@gmail.com",
+            "url": "https://fraserxu.me"
+        }
+    }
+}'
+
+module.export = ss

@@ -1,0 +1,97 @@
+.w_room{
+  background-color: #fff;
+  margin-bottom: 10px;
+}
+
+.w_room_title{
+  height: 30px;
+  padding: 5px 10px;
+  position: relative;
+  line-height: 30px;
+  display: block;
+  font-size: 12px;
+}
+.title{
+  display: block;
+  flex: 1;
+  -webkit-flex: 1;
+  box-flex: 1;
+  -webkit-box-flex: 1;
+}
+
+.title h3{
+  color: #333;
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 10px;
+}
+.op{
+  min-width: 120px;
+  text-align: right;
+}
+
+.tip{
+  color: #999;
+}
+
+.mod_row_span_30{
+  display: block;
+  flex: 1;
+  -webkit-flex: 1;
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  float: left;
+  width: 30%;
+}
+
+.mod_row_span_70{
+  display: block;
+  flex: 1;
+  -webkit-flex: 1;
+  box-flex: 1;
+  -webkit-box-flex: 1;
+  float: left;
+  width: 70%;
+}
+
+.w_sidebox{
+  width: 5.35rem;
+  height: 8.75rem;
+  background-color: #fff;
+  position: relative;
+}
+.w_sidebox_img{
+  display: block;
+    position: absolute;
+    width: 5.35rem;
+    height: 10rem;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+}
+
+.w_room_grid{
+  display: block;;
+  position: relative;
+}
+
+.w_room_item {
+  position: relative;
+  height: 5rem;
+  width: 50%;
+  float: left;
+}
+.w_room_item_img{
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 5.35rem;
+  min-height: 2.5rem;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.cl{
+  clear: both;
+}

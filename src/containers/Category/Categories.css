@@ -1,0 +1,30 @@
+
+.name {
+  color: #444;
+  font-size: 12px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.active{
+  color: #428bca;
+}
+
+.leftNav{
+  padding-top: 10px;
+  overflow: hidden;
+  position: absolute;
+  top: 45px;
+  left: 0px;
+  width: 80px;
+  height: 182px;
+  background-color: rgb(243, 243, 243);
+}
+.ul_pd{
+  padding: 0px;
+}
+
+.ul_pd_li{
+  padding: 5px;
+  border-bottom: 1px solid #D0C0C0;
+}
