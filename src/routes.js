@@ -1,5 +1,5 @@
 import React from 'react'
-import { Route, IndexRoute, Link } from 'react-router'
+import { Route, IndexRoute, Link, DefaultRoute } from 'react-router'
 
 /* container components */
 import App from './containers/App'
@@ -18,7 +18,6 @@ const routes = (
     <Route path="/category" component={Categories}>
       <Route path=":id" component={Category}/>
     </Route>
-
     <Route path="/cart" component={Cart}/>
     <Route path="/my" component={My}/>
   </Route>
