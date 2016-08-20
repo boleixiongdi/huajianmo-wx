@@ -7,6 +7,7 @@ import Home from './containers/Home/Home'
 import Package from './containers/Package/Package'
 import CategoryRoute from './containers/Category/CategoryRoute'
 import Category from './containers/Category/Category'
+import CategoryIndex from './containers/Category/CategoryIndex'
 import Categories from './containers/Category/Categories'
 import Cart from './containers/Cart/Cart'
 import My from './containers/My/My'
@@ -16,6 +17,7 @@ const routes = (
     <IndexRoute component={Home}/>
     <Route path="/package/:id/:name" component={Package}/>
     <Route path="/category" component={Categories}>
+      <IndexRoute component={CategoryIndex}/>
       <Route path=":id" component={Category}/>
     </Route>
     <Route path="/cart" component={Cart}/>
