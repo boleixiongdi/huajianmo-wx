@@ -7,6 +7,9 @@ function GoodsGroup(props) {
     //const { name, status, priority } = props.item
     return (
       <div className={styles.w_room}>
+        <div className={styles.mall_title}>
+          大理美食
+        </div>
         <a className={styles.w_room_title}>
           <div className={styles.title}>
             <h3>大理美食</h3>

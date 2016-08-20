@@ -11,7 +11,6 @@
 }
 
 .leftNav{
-  padding-top: 10px;
   overflow: hidden;
   position: absolute;
   top: 45px;
@@ -22,9 +21,18 @@
 }
 .ul_pd{
   padding: 0px;
+  margin-top: 0px;
 }
 
 .ul_pd_li{
-  padding: 5px;
   border-bottom: 1px solid #D0C0C0;
+  text-align: center;
+}
+
+.name{
+  display: block;
+  height: 28px;
+  width: 80px;
+  /* padding: 5px; */
+  line-height: 28px;
 }
