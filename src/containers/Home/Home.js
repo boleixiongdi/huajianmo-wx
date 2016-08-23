@@ -50,12 +50,13 @@ class Home extends Component {
       <div className={styles.home}>
         { loader }
         <div className={styles.list}>
-          <GoodsGroup />
-          <GoodsGroup />
-          <GoodsGroup />
-          <div className="">
-
-          </div>
+          {!loader &&
+            <div>
+              <GoodsGroup />
+              <GoodsGroup />
+              <GoodsGroup />
+            </div>
+          }
           <ul>{ packages }</ul>
         </div>
       </div>
